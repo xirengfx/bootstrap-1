@@ -70,6 +70,20 @@ h2 {
   position: absolute;
 }
 
+@media (max-width: 1300px) {
+  /* Title */
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    width: 70%;
+    transform: rotate(0);
+    position: static;
+
+  }
+}
+
 /* Features Section */
 #features {
   padding: 7% 15%;
@@ -135,14 +149,12 @@ h2 {
   background-color: #ff4c68;
   color: white;
   text-align: center;
-}
-
-.cta-container {
   padding: 5% 27%;
 }
 
 .cta-h3 {
   font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Footer */
